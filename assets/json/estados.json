@@ -1,0 +1,163 @@
+{
+    "estados": [{
+            "id": 1,
+            "sigla": "AS",
+            "nome": "Aguacalientes"
+        },
+        {
+            "id": 2,
+            "sigla": "BC",
+            "nome": "Baja Valifornia"
+        },
+        {
+            "id": 3,
+            "sigla": "BS",
+            "nome": "Baja California Sur"
+        },
+        {
+            "id": 4,
+            "sigla": "CC",
+            "nome": "Campeche"
+        },
+        {
+            "id": 5,
+            "sigla": "CL",
+            "nome": "Coahuila"
+        },
+        {
+            "id": 6,
+            "sigla": "CM",
+            "nome": "Colima"
+        },
+        {
+            "id": 7,
+            "sigla": "CS",
+            "nome": "Chiapas"
+        },
+        {
+            "id": 8,
+            "sigla": "CH",
+            "nome": "Chihuahua"
+        },
+        {
+            "id": 9,
+            "sigla": "DF",
+            "nome": "CDMX"
+        },
+        {
+            "id": 10,
+            "sigla": "DG",
+            "nome": "Durango"
+        },
+        {
+            "id": 11,
+            "sigla": "GT",
+            "nome": "Guanajuato"
+        },
+        {
+            "id": 12,
+            "sigla": "GR",
+            "nome": "Guerrero"
+        },
+        {
+            "id": 13,
+            "sigla": "HG",
+            "nome": "Hidalgo"
+        },
+        {
+            "id": 14,
+            "sigla": "JC",
+            "nome": "Jalisco"
+        },
+        {
+            "id": 15,
+            "sigla": "MC",
+            "nome": "Edo. de México"
+        },
+        {
+            "id": 16,
+            "sigla": "MN",
+            "nome": "Michoacán"
+        },
+        {
+            "id": 17,
+            "sigla": "MS",
+            "nome": "Morelos"
+        },
+        {
+            "id": 18,
+            "sigla": "NT",
+            "nome": "Nayarit"
+        },
+        {
+            "id": 19,
+            "sigla": "NL",
+            "nome": "Nuevo León"
+        },
+        {
+            "id": 20,
+            "sigla": "OC",
+            "nome": "Oaxaca"
+        },
+        {
+            "id": 21,
+            "sigla": "PL",
+            "nome": "Puebla"
+        },
+        {
+            "id": 22,
+            "sigla": "QT",
+            "nome": "Querétaro"
+        },
+        {
+            "id": 23,
+            "sigla": "QR",
+            "nome": "Quintana Roo"
+        },
+        {
+            "id": 24,
+            "sigla": "SP",
+            "nome": "San Luis Potosí"
+        },
+        {
+            "id": 25,
+            "sigla": "SL",
+            "nome": "Sinaloa"
+        },
+        {
+            "id": 26,
+            "sigla": "SR",
+            "nome": "Sonora"
+        },
+        {
+            "id": 27,
+            "sigla": "TC",
+            "nome": "Tabasco"
+        },
+        {
+            "id": 28,
+            "sigla": "TS",
+            "nome": "Tamaulipas"
+        },
+        {
+            "id": 29,
+            "sigla": "TL",
+            "nome": "Tlaxcala"
+        },
+        {
+            "id": 30,
+            "sigla": "VZ",
+            "nome": "Veracruz"
+        },
+        {
+            "id": 31,
+            "sigla": "YN",
+            "nome": "Yucatán"
+        },
+        {
+            "id": 32,
+            "sigla": "ZS",
+            "nome": "Zacatecas"
+        }
+    ]
+}

@@ -81,21 +81,21 @@
         <li class="dropdown">
           <a href="#" class="tip-right dropdown-toggle" data-toggle="dropdown" title="Perfis"><i class='bx bx-user-circle iconN'></i><span class="text"></span></a>
           <ul class="dropdown-menu">
-            <li class=""><a title="Área do Cliente" href="<?= site_url(); ?>/mine" target="_blank"> <span class="text">Área do Cliente</span></a></li>
-            <li class=""><a title="Meu Perfil" href="<?= site_url('mapos/minhaConta'); ?>"><span class="text">Meu Perfil</span></a></li>
+            <li class=""><a title="Área do Cliente" href="<?= site_url(); ?>/mine" target="_blank"> <span class="text">Area del Cliente</span></a></li>
+            <li class=""><a title="Meu Perfil" href="<?= site_url('mapos/minhaConta'); ?>"><span class="text">Menu de Perfil</span></a></li>
             <li class="divider"></li>
-            <li class=""><a title="Sair do Sistema" href="<?= site_url('login/sair'); ?>"><i class='bx bx-log-out-circle'></i> <span class="text">Sair do Sistema</span></a></li>
+            <li class=""><a title="Sair do Sistema" href="<?= site_url('login/sair'); ?>"><i class='bx bx-log-out-circle'></i> <span class="text">Salir del Sistema</span></a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="tip-right dropdown-toggle" data-toggle="dropdown" title="Relatórios"><i class='bx bx-pie-chart-alt-2 iconN'></i><span class="text"></span></a>
           <ul class="dropdown-menu">
             <li><a href="<?= site_url('relatorios/clientes') ?>">Clientes</a></li>
-            <li><a href="<?= site_url('relatorios/produtos') ?>">Produtos</a></li>
-            <li><a href="<?= site_url('relatorios/servicos') ?>">Serviços</a></li>
-            <li><a href="<?= site_url('relatorios/os') ?>">Ordens de Serviço</a></li>
-            <li><a href="<?= site_url('relatorios/vendas') ?>">Vendas</a></li>
-            <li><a href="<?= site_url('relatorios/financeiro') ?>">Financeiro</a></li>
+            <li><a href="<?= site_url('relatorios/produtos') ?>">Productos</a></li>
+            <li><a href="<?= site_url('relatorios/servicos') ?>">Servicios</a></li>
+            <li><a href="<?= site_url('relatorios/os') ?>">Ordenes de Servicio</a></li>
+            <li><a href="<?= site_url('relatorios/vendas') ?>">Ventas</a></li>
+            <li><a href="<?= site_url('relatorios/financeiro') ?>">Financiero</a></li>
             <li><a href="<?= site_url('relatorios/sku') ?>">SKU</a></li>
             <li><a href="<?= site_url('relatorios/receitasBrutasMei') ?>">Receitas Brutas - MEI</a></li>
           </ul>
@@ -104,9 +104,9 @@
           <a href="#" class="tip-right dropdown-toggle" data-toggle="dropdown" title="Configurações"><i class='bx bx-cog iconN'></i><span class="text"></span></a>
           <ul class="dropdown-menu">
             <li><a href="<?= site_url('mapos/configurar') ?>">Sistema</a></li>
-            <li><a href="<?= site_url('usuarios') ?>">Usuários</a></li>
-            <li><a href="<?= site_url('mapos/emitente') ?>">Emitente</a></li>
-            <li><a href="<?= site_url('permissoes') ?>">Permissões</a></li>
+            <li><a href="<?= site_url('usuarios') ?>">Usuarios</a></li>
+            <li><a href="<?= site_url('mapos/emitente') ?>">Editor</a></li>
+            <li><a href="<?= site_url('permissoes') ?>">Permisos</a></li>
             <li><a href="<?= site_url('auditoria') ?>">Auditoria</a></li>
             <li><a href="<?= site_url('mapos/emails') ?>">Emails</a></li>
             <li><a href="<?= site_url('mapos/backup') ?>">Backup</a></li>
@@ -123,11 +123,11 @@
         {
           $hora = date('H');
           if ($hora >= 00 && $hora < 12) {
-            return 'Bom dia, ';
+            return 'Buenos dias, ';
           } elseif ($hora >= 12 && $hora < 18) {
-            return 'Boa tarde, ';
+            return 'Buenas tardes, ';
           } else {
-            return 'Boa noite, ';
+            return 'Buenas noches, ';
           }
         }
 
